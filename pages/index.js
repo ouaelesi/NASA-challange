@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-
+import HeroSection from "../components/homePage/HeroSection";
 export default function Home() {
   // const [data, setData] = useState(null);
   // const [isLoading, setLoading] = useState(false);
@@ -26,6 +26,7 @@ export default function Home() {
             ))}
           </div>
         ))} */}
+      <HeroSection />
     </div>
   );
 }

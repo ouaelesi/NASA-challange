@@ -9,6 +9,9 @@ module.exports = {
       colors: {
         darkBlue: "#080447",
       },
+      animation: {
+        "spin-slow": "spin 8s linear infinite",
+      },
     },
   },
   plugins: [],

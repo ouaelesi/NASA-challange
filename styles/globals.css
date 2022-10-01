@@ -10,6 +10,51 @@
     @apply px-5 py-2 rounded-full font-semibold text-white;
   }
   body {
-    @apply bg-darkBlue;
+    @apply bg-darkBlue overflow-x-hidden;
+  }
+}
+
+.flyingStar {
+  animation-name: star;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  opacity: 5;
+}
+@keyframes star {
+  0% {
+    left: 300px;
+    top: -100px;
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    left: 20px;
+    top: 200px;
+    opacity: 0;
+  }
+}
+
+.earth {
+  animation-name: earth;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes earth {
+  0% {
+    left: -350px;
+    top: 100px;
+  }
+
+  60% {
+    left: -370px;
+    top: 150px;
+  }
+
+  100% {
+    left: -350px;
+    top: 100px;
   }
 }
