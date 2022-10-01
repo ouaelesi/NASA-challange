@@ -6,7 +6,7 @@ const Header = () => {
       <div className="nevElem">Space</div>
       <div className="flex gap-8">
         <div className="nevElem">Home</div>
-        <div className="nevElem">Home</div>
+        <div className="nevElem">AboutUS</div>
         <div className="nevElem">Home</div>
         <div className="nevElem">Home</div>
         <button className="btn bg-red-500">Get Started</button>
