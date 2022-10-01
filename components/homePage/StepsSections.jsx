@@ -3,10 +3,10 @@ import RenderStep from "./RenderStep";
 
 const StepsSections = () => {
   const steps = [
-    { id: 1, name: "choose 1" },
-    { id: 2, name: "choose 2" },
-    { id: 3, name: "choose 3" },
-    { id: 4, name: "choose 4" },
+    { id: 1, name: "choose 1", bg: "/assets/imgs/venus.svg" },
+    { id: 2, name: "choose 2", bg: "/assets/imgs/neptune.svg" },
+    { id: 3, name: "choose 3", bg: "/assets/imgs/earth.svg" },
+    { id: 4, name: "choose 4", bg: "/assets/imgs/Saturn.svg" },
   ];
   const [step, setStep] = useState(1);
   return (
@@ -24,12 +24,13 @@ const StepsSections = () => {
         {steps.map((stepNum, key) => (
           <div>
             <div
-              className={`px-6 py-3 w-fit mb-2 rounded-full  mx-auto cursor-pointer font-semibold   relative ${
+              className={`w-14 h-14 px-5 py-3 mb-2 bg-no-repeat rounded-full bg-center mx-auto cursor-pointer font-semibold   relative ${
                 step == stepNum.id
-                  ? "bg-gray-300 shadow-md text-2xl text-darkBlue"
-                  : "bg-gray-100 text-xl text-gray-500"
+                  ? "  text-2xl text-darkBlue"
+                  : " text-xl text-white"
               }`}
               onClick={() => setStep(stepNum.id)}
+              style={{ backgroundImage: `url(${stepNum.bg})` }}
             >
               {stepNum.id}
             </div>
