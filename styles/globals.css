@@ -4,10 +4,10 @@
 
 @layer components {
   .btn {
-    @apply px-5 py-2 rounded-full font-semibold text-white;
+    @apply px-5 py-2 rounded-full font-semibold text-white text-xl;
   }
   .nevElem {
-    @apply px-5 py-2 rounded-full font-semibold text-white;
+    @apply px-5 py-2 rounded-full font-semibold text-white text-xl;
   }
   body {
     @apply bg-darkBlue overflow-x-hidden;
@@ -79,5 +79,24 @@
   100% {
     left: -300px;
     top: 400px;
+  }
+}
+
+.spaceShip {
+  animation-name: spaceShip;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes spaceShip {
+  0% {
+    bottom: -100px;
+  }
+
+  60% {
+    bottom: -80px;
+  }
+
+  100% {
+    bottom: -100px;
   }
 }

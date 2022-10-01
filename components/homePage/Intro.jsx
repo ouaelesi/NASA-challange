@@ -11,6 +11,10 @@ const Intro = () => {
       <button className="btn mt-10 bg-red-500 text-2xl font-semibold uppercase hover:bg-red-600">
         Get Started
       </button>
+      <img
+        src="/assets/imgs/spaceShip.svg"
+        className="absolute -bottom-20 left-10 w-64 spaceShip"
+      />
     </div>
   );
 };
