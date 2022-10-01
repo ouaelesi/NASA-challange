@@ -1,5 +1,6 @@
 import React from "react";
 import Planets from "./Planets";
+import Intro from "./Intro";
 
 const HeroSection = () => {
   return (
@@ -10,8 +11,10 @@ const HeroSection = () => {
         src="/assets/imgs/eclips.svg"
         className="absolute -top-20 right-0 w-2/3 "
       ></img>
-
-      <Planets />
+      <div className="flex">
+        <Intro />
+        <Planets />
+      </div>
     </div>
   );
 };

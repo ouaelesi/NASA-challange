@@ -17,32 +17,32 @@ const Planets = () => {
         className="absolute   mt-20  w-32  earth duration-25 hover:scale-150 "
       />
       <img
+        src="/assets/imgs/jupyter.svg"
+        className="absolute   top-28  -left-40 mt-20  w-36  duration-25 hover:scale-150 "
+      />
+      <img
         src="/assets/imgs/moon.svg"
-        className="absolute   top-64  -left-5 mt-20  w-20  duration-25 hover:scale-150 "
+        className="absolute   top-64  -left-5 mt-20  w-20 duration-25 hover:scale-150 "
+      />
+      <img
+        src="/assets/imgs/mercury.svg"
+        className="absolute    top-0  -left-52 mt-20  w-28 animate-spin-slow duration-25 hover:scale-150 "
+      />
+      <img
+        src="/assets/imgs/mars.svg"
+        className="absolute   top-64  left-32 mt-20  w-20 animate-spin-slow duration-25 hover:scale-150 "
       />
       <img
         src="/assets/imgs/venus.svg"
         className="absolute   top-96  left-10 mt-20  w-32 animate-spin-slow duration-25 hover:scale-150 "
       />
       <img
-        src="/assets/imgs/venus.svg"
-        className="absolute   top-96  left-10 mt-20  w-32 animate-spin-slow duration-25 hover:scale-150 "
+        src="/assets/imgs/uranus.svg"
+        className="absolute   top-96 uranus -left-96 mt-20  w-32  duration-25 uranus hover:scale-150 "
       />
       <img
-        src="/assets/imgs/venus.svg"
-        className="absolute   top-96  left-10 mt-20  w-32 animate-spin-slow duration-25 hover:scale-150 "
-      />
-      <img
-        src="/assets/imgs/venus.svg"
-        className="absolute   top-96  left-10 mt-20  w-32 animate-spin-slow duration-25 hover:scale-150 "
-      />
-      <img
-        src="/assets/imgs/venus.svg"
-        className="absolute   top-96  left-10 mt-20  w-32 animate-spin-slow duration-25 hover:scale-150 "
-      />
-      <img
-        src="/assets/imgs/venus.svg"
-        className="absolute   top-96  left-10 mt-20  w-32 animate-spin-slow duration-25 hover:scale-150 "
+        src="/assets/imgs/neptune.svg"
+        className="absolute   -top-10  -left-96 mt-20  w-32 animate-spin-slow duration-25 hover:scale-150 "
       />
     </div>
   );

@@ -58,3 +58,26 @@
     top: 100px;
   }
 }
+
+.uranus {
+  animation-name: uranus;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes uranus {
+  0% {
+    left: -300px;
+    top: 400px;
+  }
+
+  60% {
+    left: -280px;
+    top: 450px;
+  }
+
+  100% {
+    left: -300px;
+    top: 400px;
+  }
+}
