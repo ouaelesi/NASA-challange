@@ -1,9 +1,6 @@
 import React, { useEffect } from "react";
 
 const BirthdayCard = ({ image, bg }) => {
-  useEffect(() => {
-    alert(bg);
-  });
   return (
     <div className="w-64 relative">
       <img src={image} className="w-64" />
