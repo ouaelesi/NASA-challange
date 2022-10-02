@@ -4,12 +4,12 @@ const StepThree = () => {
   const socialMedia = [
     {
       img: "/assets/imgs/span.png",
-      name: "Put as snap background",
+      name: "Put as background",
       color: "hover:bg-yellow-500",
     },
     {
       img: "/assets/imgs/instagram.png",
-      name: "Use as instagram filter",
+      name: "Use as  filter",
       color: "hover:bg-purple-700",
     },
     {
@@ -24,7 +24,7 @@ const StepThree = () => {
     },
     {
       img: "/assets/imgs/pinttrest.png",
-      name: "Share on your pintrest board",
+      name: "Share on your board",
       color: "hover:bg-red-500",
     },
   ];
