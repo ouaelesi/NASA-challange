@@ -33,6 +33,7 @@ const StepThree = () => {
       <div className="flex flex-wrap gap-8 justify-center">
         {socialMedia.map((social, key) => (
           <div
+            key={key}
             className={`flex gap-4 my-2 shadow-md rounded-lg hover:bg-opacity-10 px-5 py-2 w-5/12 cursor-pointer relative hover:scale-105 hover:shadow-xl bg-white ${social.color}`}
           >
             <img src={social.img} className="w-14" />
