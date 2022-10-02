@@ -22,12 +22,10 @@ const StepsSections = () => {
       </div>
       <div className="flex gap-8 my-8 justify-between px-48">
         {steps.map((stepNum, key) => (
-          <div>
+          <div key={key}>
             <div
-              className={`w-14 h-14 px-5 py-3 mb-2 bg-no-repeat rounded-full bg-center mx-auto cursor-pointer font-semibold   relative ${
-                step == stepNum.id
-                  ? "  text-2xl text-darkBlue"
-                  : " text-xl text-white"
+              className={`w-14 h-14 text-2xl px-5 py-3 mb-2 bg-no-repeat rounded-full bg-center mx-auto cursor-pointer font-semibold   relative ${
+                step == stepNum.id ? "   text-darkBlue" : "  text-white"
               }`}
               onClick={() => setStep(stepNum.id)}
               style={{ backgroundImage: `url(${stepNum.bg})` }}

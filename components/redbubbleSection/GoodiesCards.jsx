@@ -49,6 +49,7 @@ const GoodiesCards = () => {
           image={good.image}
           name={good.name}
           isActive={activeElem === good.id}
+          key={key}
         />
       ))}
       <div onClick={() => nextEleme(1)} className="relative">
