@@ -121,3 +121,22 @@ body {
 .swiper-slide:nth-child(1n) {
   background-color: rgb(206, 17, 17);
 }
+
+.heroStars {
+  animation-name: heroStars;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes heroStars {
+  0% {
+    opacity: 1;
+  }
+
+  60% {
+    opacity: 0.3;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}

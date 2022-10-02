@@ -15,7 +15,7 @@ const Footer = () => {
         src="/assets/imgs/starsBg.svg"
         className="absolute animate-ping-normal"
       ></img>
-      <div className="text-center text-white mt-14 text-3xl">Let's Chat !</div>
+      <div className="text-center text-white mt-14 text-3xl">Let s Chat !</div>
       <div className="flex gap-8 w-fit mx-auto mt-5">
         <img src="/assets/imgs/linkedin.png" />
         <img src="/assets/imgs/twitterLogo.png" />
