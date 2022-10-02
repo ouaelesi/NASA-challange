@@ -6,7 +6,7 @@ const BirthdayCard = ({ image, bg }) => {
       <img src={image} className="w-64" />
       <div
         className="w-48 h-48 left-8 rounded-full absolute top-6 bg-cover bg-center border-4 bg-gray-100"
-        style={{ backgroundImage: `"url"(${bg})` }}
+        style={{ backgroundImage: `url(${bg})` }}
       ></div>
     </div>
   );
