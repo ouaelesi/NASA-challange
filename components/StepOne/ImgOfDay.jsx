@@ -1,5 +1,4 @@
 import React from "react";
-import SwiperImgs from "./swiperImgs";
 
 const ImgOfDay = () => {
   return (
@@ -7,7 +6,6 @@ const ImgOfDay = () => {
       <div className=" text-center w-full uppercase text-re-500 text-red-500 text-2xl font-semibold">
         Image of the day!
       </div>
-      <SwiperImgs />
     </div>
   );
 };
