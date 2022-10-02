@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="lg:px-28 flex justify-between py-6">
+    <div className="2xl:px-32 px-20 flex justify-between py-6">
       <div className="nevElem">
         <img src="/assets/imgs/LogoNasa.png" />
       </div>

@@ -4,11 +4,11 @@ import Footer from "../components/shared/Footer";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <>
+    <div className="hidden md:block">
       <Header />
       <Component {...pageProps} />
       <Footer />
-    </>
+    </div>
   );
 }
 

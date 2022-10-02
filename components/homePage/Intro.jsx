@@ -2,7 +2,7 @@ import React from "react";
 
 const Intro = () => {
   return (
-    <div className="px-32 py-40 text-white w-1/2 relative ">
+    <div className="2xl:px-32 px-20 py-40 text-white w-1/2 relative ">
       <div className="font-extrabold uppercase text-6xl"> Go beyond</div>
       <div className="text-2xl mt-5 font-light">
         The exploration of space will go ahead, whether we join in it or not,
