@@ -7,7 +7,7 @@
     @apply px-5 py-2 rounded-full font-semibold text-white text-xl;
   }
   .nevElem {
-    @apply px-5 py-2 rounded-full font-semibold text-white text-xl;
+    @apply px-5 py-2 rounded-full font-normal text-white text-xl;
   }
   body {
     @apply bg-darkBlue overflow-x-hidden;

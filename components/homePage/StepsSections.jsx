@@ -3,10 +3,10 @@ import RenderStep from "./RenderStep";
 
 const StepsSections = () => {
   const steps = [
-    { id: 1, name: "choose 1", bg: "/assets/imgs/venus.svg" },
-    { id: 2, name: "choose 2", bg: "/assets/imgs/neptune.svg" },
-    { id: 3, name: "choose 3", bg: "/assets/imgs/earth.svg" },
-    { id: 4, name: "choose 4", bg: "/assets/imgs/Saturn.svg" },
+    { id: 1, name: "Choose an image!", bg: "/assets/imgs/venus.svg" },
+    { id: 2, name: "Style it!", bg: "/assets/imgs/neptune.svg" },
+    { id: 3, name: "Design your item!", bg: "/assets/imgs/earth.svg" },
+    { id: 4, name: "Share it!", bg: "/assets/imgs/Saturn.svg" },
   ];
   const [step, setStep] = useState(1);
   return (

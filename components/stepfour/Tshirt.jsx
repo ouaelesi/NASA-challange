@@ -12,7 +12,7 @@ const Tshirt = ({ Side }) => {
         className="w-1/2 block mx-auto"
       />
       <img
-        className="absolute w-14 left-40  opacity-80 top-40"
+        className="absolute w-14 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  opacity-80 "
         src="/assets/imgs/content.png"
       />
     </div>

@@ -5,7 +5,18 @@ import Intro from "./Intro";
 const HeroSection = () => {
   return (
     <div className="h-screen relative">
-      <img src="/assets/imgs/starsBg.svg" className="absolute"></img>
+      <img
+        src="/assets/imgs/starsBg.svg"
+        className="absolute animate-ping-slow"
+      ></img>
+      <img
+        src="/assets/imgs/starsBg.svg"
+        className="absolute animate-ping-slowest"
+      ></img>
+      <img
+        src="/assets/imgs/starsBg.svg"
+        className="absolute animate-ping-normal"
+      ></img>
       <img src="/assets/imgs/Star.svg" className="absolute  flyingStar"></img>
       <img
         src="/assets/imgs/eclips.svg"

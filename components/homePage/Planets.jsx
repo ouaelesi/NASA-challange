@@ -5,7 +5,7 @@ const Planets = () => {
     <div className="bg-red-500 w-1/2  absolute -right-96 ">
       <img
         src="/assets/imgs/sun.svg"
-        className="absolute left-0  top-28 animate-spin-slow duration-25 hover:scale-150 "
+        className="absolute left-0  top-24 animate-spin-slow duration-25 hover:scale-150 "
       />
 
       <img

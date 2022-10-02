@@ -8,7 +8,7 @@ const Intro = () => {
         The exploration of space will go ahead, whether we join in it or not,
         and it is one of the great adventures of all time.
       </div>
-      <button className="btn mt-10 bg-red-500 text-2xl font-semibold uppercase hover:bg-red-600">
+      <button className="btn mt-10 bg-red-500 text-2xl font-semibold uppercase hover:bg-red-600 py-3 px-8">
         Get Started
       </button>
       <img

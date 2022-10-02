@@ -25,7 +25,7 @@ const GoodiesCards = () => {
   ];
   const [activeElem, setActive] = useState(2);
   const nextEleme = (value) => {
-    const newValue = activeElem + value;
+    let newValue = activeElem + value;
 
     if (newValue == 0) {
       newValue = 4;

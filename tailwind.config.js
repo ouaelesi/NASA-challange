@@ -11,6 +11,9 @@ module.exports = {
       },
       animation: {
         "spin-slow": "spin 8s linear infinite",
+        "ping-slow": "ping 3s linear infinite",
+        "ping-slowest": "ping 8s linear infinite",
+        "ping-normal": "ping 12s linear infinite",
       },
     },
   },
