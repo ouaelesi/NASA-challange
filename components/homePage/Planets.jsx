@@ -2,19 +2,19 @@ import React from "react";
 
 const Planets = () => {
   return (
-    <div className="bg-red-500 w-1/2  absolute -right-96 ">
+    <div className="bg-red-500 w-1/2  absolute lg:block -right-96 hidden">
       <img
         src="/assets/imgs/sun.svg"
-        className="absolute left-0  top-24 animate-spin-slow duration-25 hover:scale-150 "
+        className="absolute left-0  top-24 animate-spin-slow duration-25 hover:scale-105 "
       />
 
       <img
         src="/assets/imgs/earth.svg"
-        className="absolute   top-96 -left-20  animate-spin-slow duration-25 hover:scale-150 "
+        className="absolute   top-96 -left-16  lg:w-36  animate-spin-slow duration-25 hover:scale-150 "
       />
       <img
         src="/assets/imgs/Saturn.svg"
-        className="absolute   mt-20  w-32  earth duration-25 hover:scale-150 "
+        className="absolute   mt-20  lg:w-32  earth duration-25 hover:scale-150 "
       />
       <img
         src="/assets/imgs/jupyter.svg"

@@ -4,10 +4,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
 @layer components {
   .btn {
-    @apply px-5 py-2 rounded-full font-semibold text-white text-xl;
+    @apply px-5 py-2 rounded-full font-semibold text-white lg:text-xl text-sm;
   }
   .nevElem {
-    @apply px-5 py-2 rounded-full font-normal text-white text-xl;
+    @apply px-5 py-2 rounded-full font-normal text-white lg:text-xl text-sm;
   }
   body {
     @apply bg-darkBlue overflow-x-hidden;
